@@ -12,17 +12,15 @@ def plot_clusters(X, labels, title="DBSCAN Clustering"):
         labels (list/array): Cluster labels for each point.
         title (str): Title of the plot.
     """
-    # Get unique labels (e.g., -1, 0, 1, 2)
+
     unique_labels = set(labels)
 
-    # Generate colors map
     colors = [plt.cm.Spectral(each) for each in np.linspace(0, 1, len(unique_labels))]
 
     plt.figure(figsize=(10, 6))
 
     for k, col in zip(unique_labels, colors):
         if k == -1:
-            # Black used for noise.
             col = [0, 0, 0, 1]
 
         class_member_mask = (labels == k)
