@@ -12,5 +12,4 @@ def euclidean_distance(point_a, point_b):
     Returns:
         float: The distance between points.
     """
-    # implementation of Euclidean distance (sqrt of sum of squared differences)
     return np.sqrt(np.sum((point_a - point_b) ** 2))
