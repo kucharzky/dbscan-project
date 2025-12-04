@@ -1,0 +1,37 @@
+dbscan package
+==============
+
+Submodules
+----------
+
+dbscan.dbscan module
+--------------------
+
+.. automodule:: dbscan.dbscan
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+dbscan.utils module
+-------------------
+
+.. automodule:: dbscan.utils
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+dbscan.visualization module
+---------------------------
+
+.. automodule:: dbscan.visualization
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+Module contents
+---------------
+
+.. automodule:: dbscan
+   :members:
+   :show-inheritance:
+   :undoc-members:

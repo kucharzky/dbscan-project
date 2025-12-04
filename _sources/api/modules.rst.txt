@@ -1,0 +1,7 @@
+dbscan
+======
+
+.. toctree::
+   :maxdepth: 4
+
+   dbscan
