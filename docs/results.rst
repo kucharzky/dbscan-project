@@ -1,0 +1,44 @@
+========================
+Results & Implementation
+========================
+
+This section details the performance of our custom DBSCAN implementation and visualizes the results on various datasets.
+
+Algorithm Logic
+===============
+Implementation follows the standard density-based clustering approach:
+
+1. For each point, we find all neighbors within ``eps`` radius using Euclidean distance.
+2. If a point has at least ``min_samples`` neighbors, it becomes a Core Point and starts a new cluster.
+3. Using a queue visit all density-reachable neighbors to expand the cluster.
+4. Points that are not reachable from any Core Point are labeled as ``-1`` (Noise).
+
+
+Visual Results
+==============
+
+We tested the algorithm on synthetic datasets that are notoriously difficult for distance-based algorithms like K-Means.
+
+Moons Dataset
+-------------
+
+The "Moons" dataset consists of two interleaving half-circles. Standard K-Means would fail here by drawing a straight line through the middle. DBSCAN successfully follows the shape.
+
+.. image:: ./report_moons.png
+   :width: 600
+   :alt: DBSCAN on Moons Dataset
+   :align: center
+
+Circles Dataset
+---------------
+
+The "Circles" dataset contains a smaller circle inside a larger one. This is a classic topology problem.
+
+..  Note: Replace 'circles_plot.png' with your actual file name if you have one.
+    If you don't have it yet, you can remove this block.
+
+.. image:: ./report_circles.png
+   :width: 600
+   :alt: Clustering Comparison
+   :align: center
+

@@ -2,4 +2,5 @@
 Contributors
 ============
 
-* kucharzky <maciejk1407@gmail.com>
+* kucharzky (Maciej Kucharski) <maciejk1407@gmail.com> <mackuchar@student.agh.edu.pl>
+* AH-repo (Adrian Homa)

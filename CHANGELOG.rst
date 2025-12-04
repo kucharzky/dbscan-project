@@ -2,9 +2,24 @@
 Changelog
 =========
 
-Version 0.1
-===========
+V0.1
+====
 
-- Feature A added
-- FIX: nasty bug #1729 fixed
-- add your changes here!
+just pyscaffold architecture generated
+
+V0.2
+====
+completed algorithm with parametrization
+
+V0.3
+====
+simple development testing to check if works
+
+test comparision with scikit-learn package
+
+generate_raport.py for documation
+
+V0.4
+====
+
+documation generated with sphinx and tox
