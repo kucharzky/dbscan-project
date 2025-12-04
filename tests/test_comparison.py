@@ -1,5 +1,6 @@
 import pytest
 import numpy as np
+import time
 from sklearn.datasets import make_blobs, make_moons
 from sklearn.cluster import DBSCAN as SklearnDBSCAN
 from sklearn.metrics import adjusted_rand_score
