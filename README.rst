@@ -32,7 +32,7 @@
 ================================
 DBSCAN Clustering Implementation
 ================================
-
+Developer: Maciej Kucharski | Tester: Adrian Homa
 
     This project presents a custom implementation of the DBSCAN (Density-Based Spatial Clustering of Applications with Noise) algorithm in Python
 
